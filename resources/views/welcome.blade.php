@@ -34,6 +34,7 @@
 
                 </div>
                 @yield('content')
+              
                 @include('links')
             </div>
         </div>

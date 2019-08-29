@@ -12,9 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('academics.index');
+})->name('home');
 
 Route::get('/quienes-somos', function () {
-    return view('about');
-});
+    return view('academics.labout');
+})->name('about');
+
+Route::get('/admision', function () {
+    return view('academics.admissions');
+})->name('admision');
