@@ -22,3 +22,7 @@ Route::get('/quienes-somos', function () {
 Route::get('/admision', function () {
     return view('academics.admissions');
 })->name('admision');
+
+Route::get('/contacto', function () {
+    return view('academics.contact');
+})->name('contact');

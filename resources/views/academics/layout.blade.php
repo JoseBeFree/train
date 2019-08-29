@@ -89,7 +89,7 @@
                   <a href="courses.html" class="nav-link text-left">Courses</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="nav-link text-left">Contact</a>
+                    <a href="{{route('contact')}}" class="nav-link text-left">Contact</a>
                   </li>
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
