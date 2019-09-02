@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Academics &mdash; Website by Colorlib</title>
+  <title>Academi- @yield('title', 'default')</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,6 +26,12 @@
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="css/style.css">
+  <style type="text/css">
+    .btn-primary{
+      background-color: #8f6aa7e0;
+      border-color: #8f6aa7e0;
+    }
+  </style>
 
 
 
@@ -86,7 +92,7 @@
                   <a href="{{route('admision')}}" class="nav-link text-left">Admissions</a>
                 </li>
                 <li>
-                  <a href="courses.html" class="nav-link text-left">Courses</a>
+                  <a href="{{route('curso')}}" class="nav-link text-left">Courses</a>
                 </li>
                 <li>
                     <a href="{{route('contact')}}" class="nav-link text-left">Contact</a>

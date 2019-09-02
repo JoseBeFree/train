@@ -1,4 +1,7 @@
 @extends('academics.layout')
+
+@section('title', 'contacto')
+
 @section('content')
 <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
         <div class="container">

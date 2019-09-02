@@ -707,7 +707,7 @@ h1, h2, h3, h4, h5,
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #51be78;
+  background: #dcd1d1;
   position: relative; }
   .social-wrap a > span {
     position: absolute;
@@ -930,7 +930,7 @@ h1, h2, h3, h4, h5,
 
 .footer {
   padding: 4rem 0;
-  background: #183661;
+  background: #e589b8;
   font-size: 14px;
   color: #fff; }
   .footer .footer-heading {

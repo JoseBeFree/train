@@ -26,3 +26,7 @@ Route::get('/admision', function () {
 Route::get('/contacto', function () {
     return view('academics.contact');
 })->name('contact');
+
+Route::get('/cursos', function () {
+    return view('academics.courses');
+})->name('curso');
