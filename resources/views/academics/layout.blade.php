@@ -31,6 +31,12 @@
       background-color: #8f6aa7e0;
       border-color: #8f6aa7e0;
     }
+    .footer {
+    padding: 4rem 0;
+    background: #4f2a64;
+    font-size: 14px;
+    color: #fff;
+}
   </style>
 
 
@@ -60,7 +66,7 @@
             <a href="#" class="small mr-3"><span class="icon-envelope-o mr-2"></span> info@mydomain.com</a> 
           </div>
           <div class="col-lg-3 text-right">
-            <a href="login.html" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a>
+            <a href="{{route('login')}}" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a>
             <a href="register.html" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Register</a>
           </div>
         </div>
@@ -71,7 +77,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
+            <a href="{{route('home')}}" class="d-block">
               <img src="images/logo.jpg" alt="Image" class="img-fluid">
             </a>
           </div>

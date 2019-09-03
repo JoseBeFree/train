@@ -30,3 +30,7 @@ Route::get('/contacto', function () {
 Route::get('/cursos', function () {
     return view('academics.courses');
 })->name('curso');
+
+Route::get('/login', function () {
+    return view('academics.login');
+})->name('login');
