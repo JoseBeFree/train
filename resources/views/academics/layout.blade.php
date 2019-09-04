@@ -28,8 +28,9 @@
   <link rel="stylesheet" href="css/style.css">
   <style type="text/css">
     .btn-primary{
-      background-color: #8f6aa7e0;
-      border-color: #8f6aa7e0;
+        color: #f2eaf4;
+      background-color: #4f2a64;
+      border-color: #8332b1;
     }
     .footer {
     padding: 4rem 0;
@@ -37,6 +38,18 @@
     font-size: 14px;
     color: #fff;
 }
+      .a{
+          color: #aa348b;
+    text-decoration: none;
+    background-color: transparent;
+      }
+      
+      .a {
+    color: #51be78;
+    text-decoration: none;
+    background-color: transparent;
+          
+         
   </style>
 
 
@@ -78,7 +91,7 @@
         <div class="d-flex align-items-center">
           <div class="site-logo">
             <a href="{{route('home')}}" class="d-block">
-              <img src="images/logo.jpg" alt="Image" class="img-fluid">
+              <img src="images/logito.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
           <div class="mr-auto">
@@ -131,7 +144,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
+            <p class="mb-4"><img src="images/logito.jpg" alt="Image" class="img-fluid"></p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
             <p><a href="#">Learn More</a></p>
           </div>
