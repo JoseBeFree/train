@@ -39,15 +39,27 @@
     color: #fff;
 }
       .a{
-          color: #aa348b;
+          color:#aa348b;
     text-decoration: none;
     background-color: transparent;
       }
       
       .a {
-    color: #51be78;
+    color: #9e2786;
     text-decoration: none;
-    background-color: transparent;
+          background-color: transparent;
+      }
+      
+      .site-navbar .site-navigation .site-menu > li > a {
+    padding: 20px 20px;
+    color: #c32727;
+    display: inline-block;
+    text-decoration: none !important;
+}
+      .img-fluid {
+    max-width: 90%;
+    height: auto;
+}
           
          
   </style>
@@ -80,7 +92,7 @@
           </div>
           <div class="col-lg-3 text-right">
             <a href="{{route('login')}}" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a>
-            <a href="register.html" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Register</a>
+            <a href="{{route('register')}}" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Register</a>
           </div>
         </div>
       </div>
@@ -144,8 +156,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <p class="mb-4"><img src="images/logito.jpg" alt="Image" class="img-fluid"></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
+            <p class="mb-4"><img src="images/logos-1.png" alt="Image" class="img-fluid"></p> 
             <p><a href="#">Learn More</a></p>
           </div>
           <div class="col-lg-3">
