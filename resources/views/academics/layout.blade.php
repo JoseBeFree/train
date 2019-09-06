@@ -44,15 +44,11 @@
     background-color: transparent;
       }
       
-      .a {
-    color: #9e2786;
-    text-decoration: none;
-          background-color: transparent;
-      }
+    
       
       .site-navbar .site-navigation .site-menu > li > a {
     padding: 20px 20px;
-    color: #c32727;
+    color: #951b81;
     display: inline-block;
     text-decoration: none !important;
 }
