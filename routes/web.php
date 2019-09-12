@@ -16,7 +16,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/quienes-somos', function () {
-    return view('academics.labout');
+    return view('academics.about');
 })->name('about');
 
 Route::get('/admision', function () {
@@ -38,4 +38,8 @@ Route::get('/login', function () {
 Route::get('/registro', function () {
     return view('academics.register');
     })->name('register');
+
+Route::get('/curso', function () {
+    return view('academics.course-single');
+    })->name('single');
 
