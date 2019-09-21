@@ -32,8 +32,16 @@
                             <input type="text" id="username" class="form-control form-control-lg">
                         </div>
                         <div class="col-md-12 form-group">
+                            <label for="username">Lastname</label>
+                            <input type="text" id="lastname" class="form-control form-control-lg">
+                        </div>
+                        <div class="col-md-12 form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" class="form-control form-control-lg">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label for="number_format">Number telephone</label>
+                            <input type="number_format" id="number_format" class="form-control form-control-lg">
                         </div>
                         <div class="col-md-12 form-group">
                             <label for="pword">Password</label>
