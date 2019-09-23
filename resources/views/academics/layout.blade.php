@@ -473,6 +473,9 @@
                   <a href="{{route('curso')}}" class="nav-link text-left">Courses</a>
                 </li>
                 <li>
+                  <a href="{{route('usuario')}}" class="nav-link text-left">Usuario</a>
+                </li>
+                <li>
                     <a href="{{route('contact')}}" class="nav-link text-left">Contact</a>
                   </li>
               </ul>                                                                                                                                                                                                                                                                                          </ul>

@@ -39,7 +39,6 @@ Route::get('/registro', function () {
     return view('academics.register');
     })->name('register');
 
-Route::get('/curso', function () {
-    return view('academics.course-single');
-    })->name('single');
-
+Route::get('/usuario', function () {
+    return view('academics.usuario');
+    })->name('usuario');
